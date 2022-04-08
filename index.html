@@ -10,11 +10,17 @@
 </head>
 
 <body background="./img/学校天台.jpeg">
+	<button onclick="jump()" class="btn_jump">五一</button>
+		<script>
+		 function jump(){
+			 window.location.href = 'https://www.bilibili.com/video/BV1Jq4y1a7nT/'
+		 }
+		</script>
 <div id="audioBox">
 	<script type="text/javascript">
 	window.onload = function()
 	{
-		let arr = ["./img/sweet.mp3","./img/星辰大海.mp3","./img/bhs.mp3","./img/四季予你.mp3"];               //把需要播放的歌曲从后往前排，这里已添加两首音乐，可继续添加多个音乐
+		let arr = ["./img/sweet.mp3","./img/星辰大海.mp3","./img/bhs.mp3","./img/四季予你.mp3","./img/今天也想见到你.mp3"];               //把需要播放的歌曲从后往前排，这里已添加两首音乐，可继续添加多个音乐
 		let myAudio = new Audio();
 		
 		myAudio.preload = true;
@@ -63,7 +69,6 @@
 		<li></li>
 	</ol>
 </div>
-
 
 
 </body>
